@@ -24,8 +24,8 @@ var score = 0;
 
 function preload() {
   backgroundImg = loadImage("./assets/background.gif");
-  backroundMusic = loadSound("./assets/background_music.mp3");
-  waterMusic = loadSound("./assets/cannon_water.mp3");
+  backgroundMusic = loadSound("./assets/background_music.mp3");
+  waterSound = loadSound("./assets/cannon_water.mp3");
   pirateLaughSound = loadSound("./assets/pirate_laugh.mp3");
   cannonExplosion = loadSound("./assets/cannon_explosion.mp3");
   towerImage = loadImage("./assets/tower.png");
